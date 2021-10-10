@@ -1,0 +1,61 @@
+.adding-section {
+  padding: 20px;
+  background-color: #333;
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.task {
+  font-size: 1.7rem;
+  color: #fff;
+  padding: 20px;
+  background-color: #333;
+  width: 80%;
+  margin: 10px auto;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.adding-section form {
+  width: 80%;
+}
+.adding-section form input {
+  width: 100%;
+}
+#task {
+  color: #333;
+  padding: 10px 20px;
+  width: 80%;
+  font-size: 1.7rem;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#add {
+  cursor: pointer;
+  font-size: 1.7rem;
+  background-color: #333;
+  color: #fff;
+  border: #fff 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#add:hover {
+  color: #333;
+  background-color: #fff;
+}
