@@ -21,6 +21,7 @@ addBtn.addEventListener("click",function (){
         task.id = taskArray.length-1 ;
         time.id = taskArray.length-1  ;
         window.localStorage[`task`]=taskArray;
+        window.location = window.location.href;
     }
 });
 // close and remove the task 
@@ -38,7 +39,7 @@ if (window.localStorage.key(0)){
     createList();
 }
 function  createList() {
-    for (let i=0;i<taskArray.length ;i++){
+    for (let i=1;i<taskArray.length ;i++){
         let task = document.createElement("div");
         let time =document.createElement("i");
         task.classList.add("task");
